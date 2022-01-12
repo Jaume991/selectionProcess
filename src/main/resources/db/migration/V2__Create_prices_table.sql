@@ -7,6 +7,5 @@ create table PRICES (
     product_id int not null,
     priority int not null,
     price DECIMAL(20,2) not null,
-    curr varchar(10) not null,
-    foreign key (brand_id) references brands(id)
+    curr varchar(10) not null
 );
